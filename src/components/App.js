@@ -15,7 +15,7 @@ useEffect(() => fetch(`https://dog.ceo/api/breeds/image/random`)
 
 if (!dogImg) return <p>Loading...</p>;
 return (
-    <img src={dogImg} />
+    <img src={dogImg} alt='A Random Dog'/>
 )
 }
 export default App
